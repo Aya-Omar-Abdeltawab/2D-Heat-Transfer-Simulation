@@ -83,19 +83,6 @@ pro/
 - NumPy: Numerical computations
 - Plotly: Interactive visualization
 
-## Technical Details
-
-- Uses explicit finite difference method for spatial discretization
-- Forward Euler method for time integration
-- Dirichlet boundary conditions (fixed temperature at boundaries)
-- Interactive animation with play/pause controls and time slider
-- CFL condition monitoring for numerical stability
-
-## Limitations
-
-- Explicit method requires small time steps for stability
-- Fixed boundary conditions
-- Uniform grid spacing
 
 ## Contributing
 
